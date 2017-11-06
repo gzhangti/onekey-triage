@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='if12' artifactId='onekey-triage' version='0.0.1-SNAPSHOT'><l:dependency name='Onekey-triage Plugin' groupId='if12' artifactId='onekey-triage' version='0.0.1-SNAPSHOT' url='https://wiki.jenkins-ci.org/display/JENKINS/TODO+Plugin'><l:description>Triage Plugin used for triaging the test results of specific job in ARTs.</l:description><l:license name='MIT License' url='http://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>

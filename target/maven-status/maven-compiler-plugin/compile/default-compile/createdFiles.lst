@@ -1,0 +1,4 @@
+if12/onekey_triage/Messages.class
+if12/onekey_triage/HelloWorldBuilder/DescriptorImpl/doCheckName.stapler
+if12/onekey_triage/HelloWorldBuilder.stapler
+META-INF/annotations/hudson.Extension

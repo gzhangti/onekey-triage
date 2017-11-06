@@ -1,0 +1,53 @@
+Nov 06, 2017 3:25:59 PM org.eclipse.jetty.util.log.Log initialized
+INFO: Logging initialized @542ms
+Picking up existing exploded jenkins.war at /Users/zhangti/eclipse-workspace/onekey-triage/target/jenkins-for-test
+Nov 06, 2017 3:26:00 PM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+WARNING: Empty contextPath
+Nov 06, 2017 3:26:00 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.2.12.v20150709
+Nov 06, 2017 3:26:00 PM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+Nov 06, 2017 3:26:00 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@238b1d64{/,file:/Users/zhangti/eclipse-workspace/onekey-triage/target/jenkins-for-test/,AVAILABLE}{/Users/zhangti/eclipse-workspace/onekey-triage/target/jenkins-for-test}
+Nov 06, 2017 3:26:00 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@12289b8b{HTTP/1.1}{localhost:55095}
+Nov 06, 2017 3:26:00 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @2089ms
+Nov 06, 2017 3:26:00 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Nov 06, 2017 3:26:12 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Nov 06, 2017 3:26:13 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Nov 06, 2017 3:26:13 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Nov 06, 2017 3:26:13 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Nov 06, 2017 3:26:15 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Nov 06, 2017 3:26:18 PM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 55147
+Nov 06, 2017 3:26:18 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Nov 06, 2017 3:26:18 PM hudson.UDPBroadcastThread run
+WARNING: UDP handling problem
+java.net.SocketException: Can't assign requested address
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:179)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:319)
+	at hudson.UDPBroadcastThread.run(UDPBroadcastThread.java:77)
+
+Nov 06, 2017 3:26:18 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.2.12.v20150709
+Nov 06, 2017 3:26:18 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.s.ServletContextHandler@63039bf7{/,null,AVAILABLE}
+Nov 06, 2017 3:26:18 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@75a249f{HTTP/1.1}{0.0.0.0:55149}
+Nov 06, 2017 3:26:18 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @19755ms
+Nov 06, 2017 3:26:20 PM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@12289b8b{HTTP/1.1}{localhost:0}
+Nov 06, 2017 3:26:20 PM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@238b1d64{/,file:/Users/zhangti/eclipse-workspace/onekey-triage/target/jenkins-for-test/,UNAVAILABLE}{/Users/zhangti/eclipse-workspace/onekey-triage/target/jenkins-for-test}
+WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
+WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.
